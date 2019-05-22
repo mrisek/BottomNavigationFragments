@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
             android:id="@+id/contacts"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/ic_contacts"
             android:contentDescription="contacts description"
             android:title="Contacts" />
     <item
             android:id="@+id/messages"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/ic_messages"
             android:contentDescription="messages description"
             android:title="Messages" />
     <item
             android:id="@+id/tasks"
-            android:icon="@mipmap/ic_launcher_round"
+            android:icon="@drawable/ic_tasks"
             android:contentDescription="tasks description"
             android:title="Tasks" />
     <item
             android:id="@+id/calls"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/ic_calls"
             android:contentDescription="calls description"
             android:title="Calls" />
     <item
             android:id="@+id/settings"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/ic_settings"
             android:contentDescription="settings description"
             android:title="Settings" />
 </menu>

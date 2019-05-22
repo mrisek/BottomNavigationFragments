@@ -8,5 +8,19 @@
     <fragment android:id="@+id/nav_contacts"
               android:name="com.example.bottomnavigationfragments.contacts.Contacts"
               android:label="fragment_contacts"
-              tools:layout="@layout/fragment_contacts"/>
+              tools:layout="@layout/fragment_contacts">
+        <action android:id="@+id/action_nav_contacts_to_exampleFragment"
+                app:destination="@id/exampleFragment"/>
+        <action android:id="@+id/action_nav_contacts_to_exampleActivity"
+                app:destination="@id/exampleActivity"/>
+    </fragment>
+
+    <fragment android:id="@+id/exampleFragment"
+              android:name="com.example.bottomnavigationfragments.exampleFragment.ExampleFragment"
+              android:label="fragment_example" tools:layout="@layout/fragment_example"/>
+
+    <activity android:id="@+id/exampleActivity"
+              android:name="com.example.bottomnavigationfragments.exampleActivity.ExampleActivity"
+              android:label="activity_example" tools:layout="@layout/activity_example"/>
+
 </navigation>
